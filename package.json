@@ -1,6 +1,6 @@
 {
   "name": "remove-array-item",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Given an array, removes specified elements and returns the modified array",
   "main": "lib/index.js",
   "scripts": {
