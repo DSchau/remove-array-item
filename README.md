@@ -16,7 +16,7 @@ The module simply exports a function; the first argument is the current array, t
 
 It uses a "naive" `indexOf` implementation, and so does not do any deep equality checks on objects or the like.
 
-### Example
+### Examples
 
 ```javascript
 const arr = removeArrayItem(['red', 'green', ['red', 'blue']], 'red');
