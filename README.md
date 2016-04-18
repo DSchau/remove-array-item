@@ -1,5 +1,9 @@
 # remove-array-item
 
+[![Build Status](https://img.shields.io/npm/v/remove-array-item.svg)](https://www.npmjs.com/package/remove-array-item)
+[![Build Status](https://travis-ci.org/DSchau/remove-array-item.svg?branch=master)](https://travis-ci.org/DSchau/remove-array-item)
+[![David](https://img.shields.io/david/DSchau/remove-array-item.svg)](https://david-dm.org/DSchau/remove-array-item)
+
 A simple utility to (recursively) remove specified item(s) from an array.
 
 ## Install
