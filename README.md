@@ -12,7 +12,7 @@ npm i remove-array-item --save
 
 ### `removeArrayItem(arr, item)`
 
-The module simply exports a function, the first argument is the current array, the next is the item that should be removed.
+The module simply exports a function; the first argument is the current array, the next is the item that should be removed from all arrays/nested arrays.
 
 It uses a "naive" `indexOf` implementation, and so does not do any deep equality checks on objects or the like.
 

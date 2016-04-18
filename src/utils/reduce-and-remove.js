@@ -1,13 +1,13 @@
 import isArray from './is-array';
 
-export default function reduceAndRemove(...args) {
-  return function(prev, cur) {
+export default function reduceAndRemove(...items) {
+  return function(arr, cur) {
     if ( isArray(cur) ) {
-      prev.push(cur
-        .reduce(reduceAndRemove(...args), []));
-    } else if ( args.indexOf(cur) === -1 ) {
-      prev.push(cur);
+      arr.push(cur
+        .reduce(reduceAndRemove(...items), []));
+    } else if ( items.indexOf(cur) === -1 ) {
+      arr.push(cur);
     }
-    return prev;
+    return arr;
   };
 }
