@@ -1,5 +1,4 @@
 node_modules/
 lib/
-*.swp
+coverage/
 npm-debug.log
-
