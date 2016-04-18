@@ -19,6 +19,8 @@ It uses a "naive" `indexOf` implementation, and so does not do any deep equality
 ### Examples
 
 ```javascript
+import removeArrayItem from 'remove-array-item';
+
 const arr = removeArrayItem(['red', 'green', ['red', 'blue']], 'red');
 
 // arr will be ['green', ['blue']]
