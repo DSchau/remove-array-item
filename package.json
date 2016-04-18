@@ -7,7 +7,7 @@
     "prepublish": "rm -rf lib && npm test && npm run transpile & npm run changelog",
     "test": "mocha --compilers js:babel-register test/**/*.spec.js",
     "transpile": "babel src --out-dir lib",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -r 0"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "keywords": [
     "array",
