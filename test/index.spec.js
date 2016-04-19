@@ -12,4 +12,11 @@ describe('removeArrayItem', () => {
   it('exposes a funtion', () => {
     expect(removeArrayItem).to.to.be.a('function');
   });
+
+  it.skip('exposes a configuration object', () => {
+    removeArrayItem.config({
+      collapse: true
+    });
+    console.log(removeArrayItem.defaults);
+  });
 });
