@@ -1,5 +1,5 @@
-import isArray from './is-array';
 import flattenDeep from 'lodash.flattendeep';
+import isArray from './is-array';
 
 export default function flattenAndReduce(prev = [], cur) {
   if ( isArray(cur) ) {
